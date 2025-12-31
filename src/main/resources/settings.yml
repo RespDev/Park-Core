@@ -1,0 +1,16 @@
+#
+# General settings
+#
+Default_Scoreboard: true
+Production: true
+Server_Name: Hub
+
+#
+# Database settings
+#
+Database:
+  Host:
+  Port:
+  Database:
+  Username:
+  Password:
