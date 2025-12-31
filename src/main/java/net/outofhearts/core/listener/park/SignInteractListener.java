@@ -10,6 +10,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 
+// Forked from PalaceInteractiveArchive/ParkManager
 public class SignInteractListener implements Listener {
 
     @EventHandler
@@ -30,4 +31,5 @@ public class SignInteractListener implements Listener {
             }
         }
     }
+
 }
