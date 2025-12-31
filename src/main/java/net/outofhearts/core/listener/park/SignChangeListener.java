@@ -11,6 +11,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.SignChangeEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 
+// Forked from PalaceInteractiveArchive/ParkManager
 public class SignChangeListener implements Listener {
 
     public SignChangeListener() {
@@ -55,4 +56,5 @@ public class SignChangeListener implements Listener {
             signEntry.getHandler().onSignChange(player, event);
         }
     }
+
 }
