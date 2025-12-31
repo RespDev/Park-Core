@@ -12,6 +12,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import java.util.ArrayList;
 import java.util.List;
 
+// Forked from PalaceInteractiveArchive/ParkManager
 public class ServerSign {
     private static List<SignEntry> entries = new ArrayList<>();
 
@@ -75,4 +76,5 @@ public enum ServerSign {
         return null;
     }
 }
+
 */
